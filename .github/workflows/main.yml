@@ -2,7 +2,7 @@ name: Deploy MuleSoft Application Demo
 on:
   push:
     branches:
-      - mai
+      - feature-branch
  
 jobs:
   call-workflow:
