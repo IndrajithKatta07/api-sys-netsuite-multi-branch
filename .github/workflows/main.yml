@@ -2,9 +2,9 @@ name: Deploy MuleSoft Application Demo
 on:
   push:
     branches:
-      - mai
+      - Dev
  
 jobs:
   call-workflow:
-    uses: IndrajithKatta07/pipeline/.github/workflows/pipeline.yml@main
+    uses: IndrajithKatta07/pipeline/.github/workflows/pipeline-dev.yml@main
     secrets: inherit
